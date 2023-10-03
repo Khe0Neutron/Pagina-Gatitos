@@ -1,2 +1,2 @@
 # Pagina-Gatitos
-Esta es una aplicacion web usando API REST donde trae imagenes de gatitos en las cuales se usan los metodos para bajar imagenes aleatorias, subir alguna foto de tu gatito y poder seleccionar y guardar tus gatitos favoritos. Se usa fetch para las peticiones Request.
+Esta es una aplicación web que utiliza una API REST para obtener imágenes de gatitos. Permite realizar diversas operaciones, como descargar imágenes aleatorias, subir fotos de tu gatito y seleccionar/guardar tus gatitos favoritos. La comunicación con la API se realiza mediante el uso de la función `fetch` para gestionar las peticiones Request.
