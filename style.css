@@ -1,0 +1,70 @@
+body{
+    background-color: cornflowerblue;
+}
+
+#main .carousel-inner img{
+    height: 48.6vh;
+    object-fit: cover;
+    filter:grayscale(70%);
+}
+
+#carousel 
+{
+    position: relative;
+}
+
+#carousel .overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+#carousel .overlay .container,
+#carousel .overlay .row
+{
+    height: 100%;
+}
+#aleatorio-input
+{   
+    padding: 1.2vh;
+    text-align: center;
+    background-color: #ff7802b2;
+    color: white;
+}
+#aleatorio
+{
+    
+    background-color: #ff7802b2;
+}
+#randomMichis
+{
+    width: 100%;
+}
+.contenedor
+{
+    padding: 2.1vh;
+}
+
+#cajaTexto {
+    width: 5%; /* Opcional: Esto hará que el campo de texto ocupe todo el ancho disponible */
+    text-align: center; /* Centra el texto dentro del campo de texto */
+    border-radius: 10px; /* Establece el radio de los bordes */
+    border: 2px solid #ccc; /* Añade un borde con un color gris claro (#ccc) */
+    border-color: #007bff;
+}
+#favoritos
+{   
+    background-color: #efb810;
+}
+#subir-fotos
+{
+    background-color: #1ABC9C;
+}
+#title-fav{
+    color: black;
+}

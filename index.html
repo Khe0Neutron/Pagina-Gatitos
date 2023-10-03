@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="56">
+    <!--Header-->
+    <nav id = "header" class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="letter-spacing: 6px;">
+              <img src="img/gato.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+              <strong>Gatitos App</strong>
+            </a>
+        </div>
+    </nav>
+    <main id = "main">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/cat-1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/cats-2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/cat-3.jpg" alt="Third slide">
+              </div>
+              <div class="overlay">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-md-6 offset-md-6 text-center text-md-right">
+                      <h1>Aplicacion de gatitos</h1>
+                      <p class="d-none d-md-block">
+                        "¡Bienvenido a tu colección de gatos favoritos! Explora una selección encantadora de imágenes felinas que seguramente alegrarán tu día. Desplázate y descubre adorables amigos peludos para alegrar tu corazón."
+                      </p>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+            
+        </div>
+    </main>
+    <section id="aleatorio">
+        <div class="contenedor">
+          <div class="col text-center text-uppercase" id="aleatorio-input">
+            <span id="error"></span>
+            <a>How any dogs do you want?</a>
+            <input type="text" id="cajaTexto" name="nombre">
+            <button class= "btn btn-primary" id = "boton">CLICK</button>
+            <h2>Gatitos Aleatorios</h2>
+          </div>  
+          <div id = "randomMichis">
+          </div>
+            
+        </div>
+        
+        
+    </section>
+
+    <section >
+        
+    </section>
+
+    <section id="subir-fotos">
+      <div class="container" id="subir-fotos">
+        <h2 class="col text-center text-uppercase" id="tipeado">Sube la foto de tu gatito</h2>
+        <form class="col text-center text-uppercase pt-2 pb-2" id="uploadingForm">
+          <input class="btn btn-outline-warning" id="file" type="file" name="file"/>
+          <button class="btn btn-primary" type="button" onclick="uploadMichiPhoto()">Subir foto</button>
+        </form>
+        <span id="mensajeSubida" style="display:none; color:green;">Subido!</span>
+      </div>
+    </section>
+
+    <section id="favoritos">
+      <div class="contenedor">
+        <div class="col text-center text-uppercase" id="title-fav">
+        <h2>Gatitos favoritos</h2>
+        </div>
+        
+        <p class="col text-center" style="color:black;">Descubre tus adorables compañeros felinos preferidos. ¡Disfruta cada minino!</p>
+        <div id = "favoritesMichis">
+            
+        </div>
+      </div>
+    </section>
+
+    <script src ="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
